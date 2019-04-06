@@ -83,5 +83,11 @@ public class Sessao {
 	public void setPreco(BigDecimal preco) {
 		this.preco = preco;
 	}
+
+	@Override
+	public String toString() {
+		return "Sessao [id=" + id + ", horario=" + horario + ", preco=" + preco + ", sala=" + sala + ", filme=" + filme
+				+ "]";
+	}
 	
 }

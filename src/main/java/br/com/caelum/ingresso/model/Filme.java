@@ -77,4 +77,11 @@ public class Filme {
 	public void setPreco(BigDecimal preco) {
 		this.preco = preco;
 	}
+
+	@Override
+	public String toString() {
+		return "Filme [id=" + id + ", nome=" + nome + ", duracao=" + duracao + ", genero=" + genero + ", preco=" + preco
+				+ "]";
+	}
+	
 }
