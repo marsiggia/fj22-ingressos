@@ -26,7 +26,7 @@ public class GerenciadorDeSessao {
 		boolean terminaAntes = terminoNovaSessao.isBefore(horarioSessaoExistente);
 		boolean comecaDepois = terminoSessaoExistente.isBefore(horarioNovaSessao);
 		
-		return terminaAntes || comecaDepois;
+		return !(terminaAntes || comecaDepois);
 	}
 	
 	public boolean cabe(Sessao novaSessao) {
