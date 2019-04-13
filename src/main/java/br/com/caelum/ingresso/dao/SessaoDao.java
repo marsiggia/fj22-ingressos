@@ -33,4 +33,8 @@ public class SessaoDao {
 					.getResultList();
 	}
 	
+	public Sessao findOne(Integer id) {
+		return em.find(Sessao.class, id);
+	}
+	
 }
