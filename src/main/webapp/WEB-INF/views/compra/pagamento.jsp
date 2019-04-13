@@ -65,13 +65,20 @@
             <div class="form-group">
                 <div class="col-md-8">
                     <label for="cartaoDeCredito">Cartão de Crédito:</label>
-                    <input id="cartaoDeCredito" type="text" name="cartaoDeCredito" class="form-control">
+                    <input id="cartaoDeCredito" type="text" name="numero" class="form-control">
                 </div>
 
                 <div class="col-md-4">
                     <label for="cvv">CVV:</label>
                     <input id="cvv" type="text" name="cvv" class="form-control">
                 </div>
+            </div>
+            
+            <div class="form-group">
+            	<div class="col-md-6">
+            		<label for="vencimento">Vencimento:</label>
+            		<input id="vencimento" type="text" name="vencimento" class="form-control">
+            	</div>
             </div>
 
 
